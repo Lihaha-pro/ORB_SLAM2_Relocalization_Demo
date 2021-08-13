@@ -10,7 +10,7 @@ i'm vegetable chicken
 
 ### 使用说明：
 
-**编译：**在build/目录下进行`cmake ..`之后，进行`make`即可，生成的可执行文件在/Examples/Monocular/load_map
+**编译：** 在build/目录下进行`cmake ..`之后，进行`make`即可，生成的可执行文件在/Examples/Monocular/load_map
 
 **运行前准备：**程序本身具有保存地图的能力，例如运行mono_kitti等，可以在**工程主目录**下生成一个名为`MapPointandKeyFrame.bin`的地图文件，程序中会通过如下指令规定读取地图的文件路径：
 
@@ -18,9 +18,9 @@ i'm vegetable chicken
 string strPathMap = cwd + "/MapPointandKeyFrame.bin"; //cwd是工程主目录
 ```
 
-==注==：工程主目录下已经有一个使用KITTI 06数据集序列生成的地图了
+==注== ：工程主目录下已经有一个使用KITTI 06数据集序列生成的地图了
 
-**运行：**在工程主目录下进行命令行交互，以运行KITTI 06数据集序列为例
+**运行：** 在工程主目录下进行命令行交互，以运行KITTI 06数据集序列为例
 
 ```bash
 ./Examples/Monocular/load_map Vocabulary/ORBvoc.txt Examples/Monocular/KITTI04-12.yaml /home/lihaha/Downloads/Kitti/data_odometry_gray/dataset/sequences/06
